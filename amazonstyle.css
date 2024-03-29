@@ -1,0 +1,1081 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height:62px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+.navlogo{
+    height:50px;
+    width:130px;
+}
+
+.logo{
+    background-size:cover;
+    background-image: url("al.png");
+    height:50px;
+    width:100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*box2*/
+.title{
+    font:#CCCCcc;
+    font-size: 12px;
+    margin-left:12px;
+}
+.place{
+    font:#FFFFFF;
+    font-size: 14px;
+    font-weight: 599;
+    margin-left:2px;
+}
+.location{
+    display:flex;
+}
+.nav-address{
+    height:30px;
+    width:70px;
+    margin-top:10px;
+}
+/*box3*/
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#f08804;
+    height:40px;
+    border-radius:5px;
+    border: none;
+}
+.nav-search:hover{
+    border:2px solid #f08804;
+}
+.all-select{
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background-color:#e6e6e6;
+    width:51.5px;
+    text-align:center;
+    border:none;
+}
+input{
+    width:594px;
+    border:none;
+    font-size: 1rem;
+    padding-left:5px;
+
+}
+.search-icon{
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    color:#0f1111;
+}
+/*box4*/
+.signin{
+    font-size:12px;
+    margin-left:5px;
+}
+.nav-second{
+    background-color: #0f1111;
+    border:none;
+    color:white;
+    font-size:14px;
+    font-weight:700;
+}
+/*box5*/
+.nav-return{
+    border:2px solid transparent;
+    width: 75px;
+    height:37px;
+}
+.border:hover{
+    border:1px solid white;
+}
+.return{
+    font-size:12px;
+}
+.orders{
+    font-size:14px;
+    font-weight:700;
+}
+/*box6*/
+.cart{
+    font-size:14px;
+    font-weight:700;
+    display:flex;
+    justify-self: baseline;
+}
+.nav-cart i {
+    font-size:28px;
+}
+.nav-cart{
+    font-size:14px;
+    font-weight:700;
+}
+.border:hover{
+    border:1px solid white;
+}
+/*panel*/
+.panel{
+    height:39px;
+    background-color:#232f3e;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    font-size:14px;
+    font-weight:700;
+    color:white;
+    text-decoration:none;
+    display:flex;
+
+}
+.panel i{
+    color:white;
+    padding-right:5px;
+}
+.categories{
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    margin:5px 0px 5.9x;
+    padding:8px 9px;
+    border:1px solid transparent;
+}
+a:hover{
+    border:1px solid white;
+}
+.herosection{
+    background-image: url("hero panel.jpg");
+    height: 300px;
+    width:100%;
+    background-size:cover;
+}
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background: rgb(227,230,230);
+    background: linear-gradient(0deg, rgba(227,230,230,1) 0%, rgba(218,160,172,1) 51%, rgba(196,16,47,1) 100%);
+}
+.box{
+    height:410px;
+    width:23.59%;
+    background-color:#FFFFFF;
+    padding-bottom:20px;
+}
+
+/*main heading of each shop now box*/
+h2{
+    font-size:21px;
+    padding:15.9px 20px 15px 20px;
+}
+.shop-section p{
+    padding: 0px 0px 0px 20px;
+}
+.box-img{
+    display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: left; /* Center items horizontally */
+}
+/*code for the 4 images inside box1*/
+.inside-img1{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img1 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+}
+/*bg image, 4 images inside box1*/
+.i{
+    background-image: url("cushion.jpg");
+    background-size:cover;
+}
+.ii{
+    background-image: url("figurines.jpg");
+    background-size:cover;
+}
+.iii{
+    background-image: url("home.jpg");
+    background-size:cover;
+}
+.iv{
+    background-image: url("lighting.jpg");
+    background-size:cover;
+}
+/*formatting of the 'see more' part of the first box*/
+.box1cap {
+    font-size:13px;
+    color:#007185;
+    text-decoration:none;
+    padding-left:20px;
+    margin-bottom:20px;
+}
+.box1cap:hover{
+    text-decoration:underline;
+    color:rgb(186, 0, 0);
+}
+/*code for the 4 images inside box2*/
+.inside-img2{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img2 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+}
+/*bg image, 4 images inside box2*/
+.v{
+    background-image: url("boat.jpg");
+    background-size:cover;
+}
+.vi{
+    background-image: url("boult.jpg");
+    background-size:cover;
+}
+.vii{
+    background-image: url("noise.jpg");
+    background-size:cover;
+}
+.viii{
+    background-image: url("zebronics.jpg");
+    background-size:cover;
+}
+/*code for the 4 images inside box3*/
+.inside-img3{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img3 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+}
+/*bg image, 4 images inside box3*/
+.ix{
+    background-image: url("AC.jpg");
+    background-size:cover;
+}
+.x{
+    background-image: url("fridge.jpg");
+    background-size:cover;
+}
+.xi{
+    background-image: url("microwaves.jpg");
+    background-size:cover;
+}
+.xii{
+    background-image: url("mashing.jpg");
+    background-size:cover;
+}
+
+.box1cap3{
+    font-size:13px;
+    color:#007185;
+    text-decoration:none;
+    padding-left:20px;
+    margin-bottom:2rem;
+}
+.box1cap3:hover{
+    text-decoration:underline;
+    color:rgb(186, 0, 0);
+}
+.inside-img4{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img4 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+
+}
+/*bg image, 4 images inside box4*/
+.xiii{
+    background-image: url("clothing.jpg");
+    background-size:cover;
+}
+.xiv{
+    background-image: url("footware.jpg");
+    background-size:cover;
+}
+.xv{
+    background-image: url("watch.jpg");
+    background-size:cover;
+}
+.xvi{
+    background-image: url("bags.jpg");
+    background-size:cover;
+}
+/*row 2 of the shop section*/
+/*code for the 4 images inside box5*/
+.inside-img1{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img1 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+}
+/*bg image, 4 images inside box5*/
+.xvii{
+    background-image: url("diaper.jpg");
+    background-size:cover;
+}
+.xviii{
+    background-image: url("cradel.jpg");
+    background-size:cover;
+}
+.xix{
+    background-image: url("toys.jpg");
+    background-size:cover;
+}
+.xx{
+    background-image: url("bike.jpg");
+    background-size:cover;
+}
+/*formatting of the 'see more' part of the first box*/
+.box1cap {
+    font-size:13px;
+    color:#007185;
+    text-decoration:none;
+    padding-left:20px;
+    margin-bottom:20px;
+}
+.box1cap:hover{
+    text-decoration:underline;
+    color:rgb(186, 0, 0);
+}
+/*code for the 4 images inside box2*/
+.inside-img2{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img2 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+}
+/*bg image, 4 images inside box5.9*/
+.xxi{
+    background-image: url("mops.jpg");
+    background-size:cover;
+}
+.xxii{
+    background-image: url("bathroom.jpg");
+    background-size:cover;
+}
+.xxiii{
+    background-image: url("hammer.jpg");
+    background-size:cover;
+}
+.xxiv{
+    background-image: url("extension.jpg");
+    background-size:cover;
+}
+/*code for the 4 images inside box3*/
+.inside-img3{
+    height:102.2px;
+    width:41.2%;
+    margin:10px 0px 40px 20px;
+}
+/*code for the captions under the images*/
+.inside-img3 p{
+    margin-top:105px;
+    align-items:start;
+    padding-left:0px;
+    font-size:12px;
+}
+/*bg image, 4 images inside box7*/
+.xxv{
+    background-image: url("wclothing.jpg");
+    background-size:cover;
+}
+.xxvi{
+    background-image: url("handbag.jpg");
+    background-size:cover;
+}
+.xxvii{
+    background-image: url("wwatch.jpg");
+    background-size:cover;
+}
+.xxviii{
+    background-image: url("fashion.jpg");
+    background-size:cover;
+}
+/*bg image, 4 images inside box8*/
+.xxix{
+    background-image: url("cleaning.jpg");
+    background-size:cover;
+}
+.xxx{
+    background-image: url("tyre.jpg");
+    background-size:cover;
+}
+.xxxi{
+    background-image: url("helmets.jpg");
+    background-size:cover;
+}
+.xxxii{
+    background-image: url("vacuum.jpg");
+    background-size:cover;
+}
+/*shop section row 2*/
+.shop-section2{
+    display:flex;
+    justify-content: space-evenly;
+    background: rgb(227,230,230);
+}
+.rowgap{
+    height:20px;
+    width:100%;
+    background-color:rgb(227,230,230);
+}
+/*shopping row 1- background formatting*/
+.inbox{
+    height:341.3px;
+    width:100%;
+    background-color:rgb(227,230,230);
+
+}
+.rowfrontbox{
+    height:59.9px;
+    width:97.59%;
+    background-color:white;
+    margin-left:18.59px;
+    display:flex;
+}
+/*anchor tag of row divs*/
+.deals{
+    font-size:14px;
+    color:#007185;
+    text-decoration:none;
+    display:inline-block;
+    padding:10px 20px 0px 0px;
+    align-self:center;
+}
+.deals:hover{
+    text-decoration:underline;
+    color:rgb(186, 0, 0);
+}
+.rowtitle h2{
+    font-size:21px;
+    padding:20px 20px 15px 20px;
+    display: inline-block;
+}
+/*row dimensioning and properties*/
+.internalboxes{
+    height:280px;
+    width:97.59%;
+    background-color:white;
+    margin-left:18.59px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.sb{
+    height:200px;
+    width:234px;
+    font-size: 13px;
+    display:flex;
+    flex-wrap:wrap;
+}
+/*image formatting for the boxes*/
+.one{
+    background-image: url("duffel.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:234px;
+    display:flex;
+}
+.two{
+    background-image: url("campus.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:234px;
+    display:flex;
+}
+.three{
+    background-image: url("ethnic.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:234px;
+    display:flex;
+}
+.four{
+    background-image: url("luggage.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:234px;
+    display:flex;
+}
+.five{
+    background-image: url("formal.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:234px;
+    display:flex;
+}
+.six{
+    background-image: url("best.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:234px;
+    display:flex;
+}
+/*lower caption*/
+#firstbox{
+    margin-left:20px;
+    display:flex;
+    flex-wrap:wrap;
+}
+#secondbox{
+    display:flex;
+    flex-wrap:wrap;
+}
+#thirdbox{
+    display:flex;
+    flex-wrap:wrap;
+}
+#fourthbox{
+    display:flex;
+    flex-wrap:wrap;
+}
+#fifthbox{
+    display:flex;
+    flex-wrap:wrap;
+}
+#sixthbox{
+    display:flex;
+    flex-wrap:wrap;
+}
+/*percent box formatting*/
+.dealbox {
+    width:90px;
+    height:25px;
+    margin-top:210px;
+    background-color:#CC0C39;
+    display:flex;
+    align-items:center;
+    color:white;
+    padding-left:5.9px;
+    padding-bottom: 4px;
+    border-radius:2px;
+}
+.percentdeal{
+    font-size:12px;
+    color:white;
+    font-weight:550;
+    display:flex;
+    justify-content: left;
+}
+/*limited time offer formatting*/
+.limited{
+    margin-top:215px;
+    margin-left: 5px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+/*formatting of the lower limited section*/
+#onelim{
+    margin-top:15px;
+    margin-left: 100px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+#twolim{
+    margin-top:15px;
+    margin-left: 100px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+#threelim{
+    margin-top:15px;
+    margin-left: 100px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+#fourlim{
+    margin-top:15px;
+    margin-left: 100px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+#fivelim{
+    margin-top:15px;
+    margin-left: 100px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+#sixlim{
+    margin-top:15px;
+    margin-left: 100px;
+    font-size:12px;
+    color:#CC0C39;
+    font-weight:559;
+}
+/*formatting of the lower caption row*/
+.captionrow{
+    height:20px;
+    width:97.59%;
+    background-color:white;
+    margin-left:18.59px;
+    margin-top:10px;
+    display:flex;
+}
+.captionrow p{
+    font-size:13px;
+    padding-left:10px;
+    margin-left:20px;
+}
+.captionrow p .p3{
+    margin-left:40px;
+}
+/*formatting of the lower caption row*/
+#pone{
+    margin-top:15px;
+}
+#ptwo{
+    margin-top:15px;
+}
+#ptree{
+    margin-top:15px;
+}
+#pfour{
+    margin-top:15px;
+}
+#pfive{
+    margin-top:15px;
+}
+#psix{
+    margin-top:15px;
+}
+.sb p{
+    margin-top:5px;
+    font-size:12px;
+}
+.dealstwo{
+    font-size:14px;
+    color:#007185;
+    text-decoration:none;
+    display:inline-block;
+    padding:10px 20px 0px 0px;
+    align-self:center;
+}
+.shop-row2{
+    display:flex;
+    justify-content:left;
+}
+.videogames{
+    background-color: #FFFFFF;
+    height:200px;
+    width:140px;
+    display:flex;
+}
+.tw{
+    height:200px;
+    width: 155.9px;
+}
+.seven{
+    background-image: url("ps4.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.eight{
+    background-image: url("minecraft.jpg");
+    background-size:cover;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.nine{
+    background-image: url("fortnite.jpg");
+    background-size:cover;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.ten{
+    background-image: url("jedi.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.eleven{
+    background-image: url("valorant.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.twelve{
+    background-image: url("playgames.jpg");
+    background-size:cover;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.thirteen{
+    background-image: url("keystore.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.fourteen{
+    background-image: url("nintendo.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:200px;
+    width:155.9px;
+    display:flex;
+}
+.pttwo{
+    height:240px;
+    width:97.59%;
+    background-color:white;
+    margin-left:18.59px;
+    display:flex;
+    justify-content: space-evenly;
+}
+/*lower end formatting*/
+.prompt{
+    height:175px;
+    width:97.59%;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+}
+.lineo{
+    height:2px;
+    background-color:rgb(227,230,230);
+    margin:40px;
+    align-self: center;
+}
+.person{
+    align-self:center;
+    margin-left:5%;
+    font-size:13px;
+}
+.getstarted{
+    align-self:center;
+    margin-left:5%;
+    font-size:13px;
+    color:black;
+    font-weight:570;
+    text-decoration:none;
+    height:28;
+    width: 230px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:4px;
+    margin-top:7px;
+    border:2px solid #F6B204;
+    background-color: #FFCF54;
+}
+.linet{
+    height:1.5px;
+    background-color:rgb(227,230,230);
+    display:flex;
+    margin-top:40px;
+    align-self: left;
+    margin-bottom:25px;
+}
+.new{
+    display:flex;
+    margin-top:10px;
+}
+.customer{
+    font-size:11px;
+    justify-self: center;
+    margin-left:48%;
+
+}
+.start{
+    font-size:11px;
+    justify-self: center;
+    color:#007185;
+    margin-left:5px;
+}
+/*back to top bar*/
+.back{
+    height:49px;
+    background-color:#37475A;
+    color:white;
+    font-size:13px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:1%;
+}
+.back:hover{
+    background-color: #4b5e74;
+}
+.secondfooter{
+    height:430px;
+    width:100%;
+    background-color:#232f3e;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.list1{
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+.list1 p{
+    padding-bottom:10px;
+    font-size:14px;
+}
+.list2{
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+.list2 p{
+    padding-bottom:10px;
+    font-size:14px;
+}
+.list3{
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+.list3 p{
+    padding-bottom:10px;
+    font-size:14px;
+}
+.secondfooter h3{
+    font-size:15.9px;
+    padding-bottom:20px;
+    padding-top:40px;
+}
+.list4{
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+.list4 p{
+    padding-bottom:10px;
+    font-size:14px;
+}
+.secondfooter p:hover{
+    text-decoration:underline;
+}
+.fline{
+    height:1px;
+    color:#4b5e74;
+    background-color:#4b5e74;
+    margin-top:100px;
+    align-self: center;
+}
+.flogo{
+    height:33px;
+    width:120px;
+    border:0.5px solid rgb(193, 188, 188);
+    border-radius: 2px;
+    display:flex;
+    margin-top:35px;
+    margin-right: 100%;
+    margin-left:-350px;
+}
+.flogos{
+    display:inline;
+}
+.fbutton{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    margin-left: -5px;
+}
+.fbutton p{
+    margin-left:12px;
+    padding-top:7px;
+    font-size:13px;
+    font-weight: 100;
+}
+.fbutton i{
+    padding-left:15px;
+}
+.flogo2{
+    width:80px;
+    height:28px;
+    background-image:url("logo.png");
+    background-size:cover;
+    margin-top:-28px;
+    margin-left:-530px;
+}
+.countries{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:0px;
+    font-size:12px;
+    background-color: #232f3e;
+    color:#dddddd;
+    padding-left:220px;
+    padding-right:220px;
+}
+.countries p:hover{
+    text-decoration:underline;
+}
+.cline2{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:0px;
+    font-size:12px;
+    background-color: #232f3e;
+    color:#dddddd;
+    padding-left:650px;
+    padding-right:650px;
+    padding-top:8px;
+    padding-bottom:35px;
+}
+.cline2 p:hover{
+    text-decoration:underline;
+}
+.finalfooter{
+    height:59.9px;
+    background-color:#131a22;
+    color:#999999;
+    display:flex;
+    justify-content:space-evenly;
+    font-size:12px;
+    padding-top:30px;
+    padding-right:320px;
+}
+.finalfooter ul{
+    list-style-type: none;
+}
+.finalfooter ul:hover{
+    text-decoration:underline;
+}
+.itemone{
+    color:white;
+}
+.finalfooter2{
+    height:59.9px;
+    background-color:#131a22;
+    color:#999999;
+    display:flex;
+    font-size:12px;
+    margin-top:0px;
+    padding-left:30px;
+    padding-right:320px;
+    padding-bottom:20px;
+}
+.finalfooter2 ul{
+    list-style-type: none;
+    margin-left:40px;
+}
+.shopbop{
+    padding-left:105px;
+}
+.business{
+    padding-left:120px;
+}
+.prime{
+    padding-left:159.9px;
+}
+.primemusic{
+    padding-left:100px;
+}
+
+.finalfooter2 ul:hover{
+    text-decoration:underline;
+}
+.cfooter{
+    height:25px;
+    background-color:#131a22;
+    color:#e6e6e6;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    padding-left: 550px;
+    padding-right:550px;
+}
+.cfooter p:hover{
+    text-decoration:underline;
+}
+.cfooter2{
+    color:white;
+    height:25px;
+    background-color:#131a22;
+    display:flex;
+    justify-content: space-evenly;
+    font-size:12px;
+}
